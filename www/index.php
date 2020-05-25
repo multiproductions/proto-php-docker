@@ -36,7 +36,7 @@ while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
 echo("</ul>\n");
 echo("</div>\n");
 
-echo("<h1>Contents of the table:</h1>\n");
+echo("<h1>Your configuration environment variables:</h1>\n");
 echo("<ul>\n");
 printf("<li>%0s: %0s</li>", 'CONFIG_MYSQL_DATABASE', $CONFIG_MYSQL_DATABASE);
 printf("<li>%0s: %0s</li>", 'CONFIG_MYSQL_USER', $CONFIG_MYSQL_USER);
